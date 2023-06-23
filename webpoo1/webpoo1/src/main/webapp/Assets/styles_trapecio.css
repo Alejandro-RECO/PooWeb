@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+
+:root {
+    --main-bg-principal: #FAD7A0;
+    --main-bg-primario: #F8C471 ;
+    --main-bg-secundario:#F5B041;
+    --main-bg-terciario: #9C640C ;
+    --main-bg-text: #1B2631 ;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.title_text{
+    text-align: center;
+    margin-top: 50px;
+}
+.container_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--main-bg-primario);
+
+}
+.container_principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--main-bg-primario);
+
+}
+.container{
+    background-color: var(--main-bg-principal);
+    height: 620px;
+    width: 95%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 1rem; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: .5s;
+}
+.figuras{
+    /* border: 1px solid blue; */
+    height: 400px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+    padding: 10px;
+    align-items: center;
+    background-color: var(--main-bg-secundario);
+    /* border-radius: 1rem; */
+    color: black;
+    font-weight: 400;
+}
+.figuras:hover{
+    transition: .6;
+    box-shadow: 10px 10px 16px lightblue;
+}
+.figuras h1{
+    padding-top: 10px;
+    font-weight: 200;
+}
+.figuras p{
+    padding-top: 10px;
+    font-weight: 500;
+}
+.trapecio{
+    width: 250px;
+    height: 0px;
+    padding-top: 45px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid var(--main-bg-terciario);
+}
+.input{
+    padding: 5px;
+    width: 100px;
+    margin: 5px;
+    height: 30;
+    margin-bottom: 5px;
+    border: none;
+    border-radius: 1rem;
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+.calculadores{
+    padding-top: 30px;
+    display: flex;
+    /* border: 1px solid red ; */
+    flex-wrap: wrap;
+}
+.boton{
+    border: none;
+    background-color: var(--main-bg-secundario);
+    margin: 5px;
+    padding: 15px;
+    border-radius: .5rem;
+}
+.boton:hover{
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 5px 5px 8px rgba(127, 127, 127, 0.279);
+
+}
